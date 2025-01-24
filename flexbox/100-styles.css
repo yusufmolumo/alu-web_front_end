@@ -1,0 +1,20 @@
+/* General Styling for Images in Post */
+.post img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* First Paragraph Styling */
+  .post-content p:first-child {
+    font-size: var(--font-size-x-large);
+  }
+  
+  /* Styling for img-caption Class */
+  .post-content .img-caption {
+    margin: 1rem 0;
+    padding: 0 .5rem;
+    font-size: var(--font-size-small);
+    color: var(--color-grey, #a0a0a0);
+    text-align: center;
+  }
+  

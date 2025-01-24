@@ -1,0 +1,43 @@
+/* File: 101-style.css */
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allows boxes to wrap to the next line */
+    gap: 10px; /* Adds spacing between the boxes */
+    justify-content: space-between; /* Distributes boxes with even spacing */
+    align-items: center; /* Aligns boxes vertically in the container */
+    height: 100vh; /* Makes the container fill the viewport height */
+}
+
+.box {
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    width: 150px; /* Fixed width for each box */
+    height: 150px; /* Fixed height for each box */
+    font-size: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* Custom colors for each box */
+.box1 {
+    background-color: #ff5733; /* Vibrant orange */
+}
+
+.box2 {
+    background-color: #33c1ff; /* Sky blue */
+}
+
+.box3 {
+    background-color: #75ff33; /* Bright green */
+}
+
+.box4 {
+    background-color: #ff33a8; /* Hot pink */
+}
+
+.box5 {
+    background-color: #8333ff; /* Deep purple */
+}
